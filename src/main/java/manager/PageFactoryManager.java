@@ -1,8 +1,6 @@
 package manager;
 
-import driver.DriverSingleton;
 import navigationtiming.PerfNavigationTiming;
-import org.openqa.selenium.WebDriver;
 import page.ComputerPage;
 import page.DesktopPage;
 import page.HomePage;

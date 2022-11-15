@@ -3,8 +3,6 @@ package page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import static waiter.Waiters.waitForPageLoadComplete;
-
 public class HomePage extends BasePage{
     @FindBy(xpath = "//ul[@class='top-menu notmobile']//a[@href='/computers']")
     private WebElement buttonComputers;
