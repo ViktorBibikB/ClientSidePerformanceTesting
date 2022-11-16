@@ -53,7 +53,7 @@ public class PerfNavigationTiming {
     }
 
     private void writeMetricsToJsonFile(String pageName, String fileName, long latency, long tti, long ttl, long onload, long totalTime) throws IOException {
-        file = new File(fileName + ".json");
+        file = new File("src/main/resources/performacedata/" + fileName + ".json");
 
         ObjectMapper mapper = new ObjectMapper();
         JSONObject jsonObject;

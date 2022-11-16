@@ -1,0 +1,11 @@
+{
+  "Home Page": [
+    {
+      "latency": 5929,
+      "tti": 1338,
+      "total_time": 7728,
+      "ttl": 439,
+      "onload": 14
+    }
+  ]
+}
